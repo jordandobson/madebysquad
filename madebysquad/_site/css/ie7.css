@@ -1,0 +1,108 @@
+body{
+  background-attachment: scroll;
+}
+
+h1{
+  margin-left: 36em;
+}
+
+/* Condensed Row Links */
+#wrapper ul#projects li h2 a,
+#wrapper ul#projects li h2 a *{
+  cursor: pointer;
+}
+
+#wrapper ul#projects li h2 a small em{
+  line-height: 3em;
+  /* Hide Text */
+  color: #fff;
+}
+
+/* changes color instead of using opacity */
+#wrapper ul#projects li h2 a.on:hover *{
+	color: #575757 !important;
+}
+
+/* Darken Image Background */
+#wrapper ul#projects li p img{
+  background-color: #eee !important;
+}
+
+/* Fixes the contact rollover area */
+#wrapper ul#projects li.more dl#contact{
+  float: left;
+  width: 100%;
+}
+
+/* Fixes a bottom spacing Error */
+#wrapper ul#projects > li{
+  overflow: visible;
+}
+#wrapper ul#projects > li p,
+#wrapper ul#projects > li h2{
+  overflow: hidden;
+}
+#wrapper ul#projects li.more{
+  overflow: hidden;
+}
+
+/* vCard placement adjust */
+#wrapper ul#projects li.more dl#contact dt strong a{
+  border-top-width: 3px; 
+}
+
+#wrapper ul#projects li h2 a strong{
+  line-height: 2em;
+}
+
+/* DATA URLS DON'T WORK USE IMAGES */
+
+body{
+  background-image: url('/_site/img/top.jpg');
+}
+
+/* Logo */
+h1{
+  background-image: url('/_site/img/logo.gif');
+}
+
+/* Rollover & Selected Bar */
+
+#wrapper ul#projects li h2 a{
+  background-image: url('/_site/img/bar.png');
+}
+
+/* Image Loading Animation */
+
+#wrapper ul#projects li p img{
+  background-image: url('/_site/img/loading.gif');
+}
+
+/* Horizontal Bar */
+#wrapper ul#projects li,
+#wrapper ul#projects li.more dl#about,
+#wrapper ul#projects li p{
+  background-image: url('/_site/img/hr.gif');
+}
+
+/* vCard */
+#wrapper ul#projects li.more dl#contact dt strong a{
+  background-image: url('/_site/img/vcard.gif');
+}
+
+/* Glue Logo */
+#wrapper ul#projects li.more dl#about ul li#glue a{
+  background-image: url('/_site/img/glue.gif');
+}
+
+/* MerchSquad Logo */
+#wrapper ul#projects li.more dl#about ul li#merchsquad a{
+  background-image: url('/_site/img/merchsquad.gif');
+}
+
+/* Twitter Logo */
+#wrapper ul#projects li.more dl#about ul li#twitter a{
+  background-image: url('/_site/img/twitter.gif');
+}
+
+

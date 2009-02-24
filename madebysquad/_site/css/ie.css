@@ -1,0 +1,148 @@
+body{
+  background-attachment: scroll;
+}
+
+h1{
+  margin-left: 36em;
+  position: absolute;
+}
+
+#wrapper ul#projects li h2 a strong{
+  line-height: 2em;
+}
+
+#wrapper ul#projects li h2,
+#wrapper ul#projects li h2 a,
+#wrapper ul#projects li h2 a *{
+  cursor: pointer;
+}
+#wrapper ul#projects li h2 a:hover,
+#wrapper ul#projects li h2 a.on{
+  background-color: #888;
+}
+/* Darken Image Background */
+#wrapper ul#projects li p img{
+  background-color: #eee !important;
+}
+
+#wrapper ul#projects li h2 a small em{
+  line-height: 3em;
+  /* Hide Text */
+  color: #fff;
+}
+#wrapper ul#projects li h2 a i{
+  font-weight: bold;
+}
+#wrapper ul#projects li h2 a.on:hover *{
+  	color: #575757 !important;
+}
+#wrapper ul#projects li.more{
+  top: 12.9em;  /* This positions text to grid  */
+  position: absolute;
+  padding-top: 0;
+}
+#wrapper ul#projects li.more dl#about p{
+  color: #aeaeae;
+}
+
+/* Links Rollover */
+#wrapper ul#projects li.more dl#about dd ul li#glue a{
+  background-position: center 1px;
+}
+#wrapper ul#projects li.more dl#about ul li#merchsquad a{
+  background-position: center -1px;
+}
+
+#wrapper ul#projects li.more dl#about dd ul li#twitter a{
+  background-position: center 2px;
+}
+
+/* Link Rollover */
+#wrapper ul#projects li.more dl#about ul li#glue a:hover{
+  background-position: center -23px;
+}
+#wrapper ul#projects li.more dl#about ul li#merchsquad a:hover{
+  background-position: center -24px;
+}
+
+#wrapper ul#projects li.more dl#about dd ul li#twitter a:hover{
+  background-position: center -21px;
+}
+
+#wrapper ul#projects li.more dl#about ul{
+  padding: 1em 0 1em 0;
+  height: 2.2em;
+  overflow: hidden;
+}
+
+/* Contact Rollovers */
+#wrapper ul#projects li.more dl#contact dd.tel em{
+  color: #aeaeae;
+  font-style: normal;
+}
+#wrapper ul#projects li.more dl#contact dd.email a,
+#wrapper ul#projects li.more dl#contact dd p.adr a{
+  color: #ff9900;
+}
+
+/* Spacing for email */
+#wrapper ul#projects li.more dl#contact dd.email{
+  margin-top: -.1em;
+  font-size: 1.4em;
+}
+/* vCard Rollover */
+#wrapper ul#projects li.more dl#contact dt strong a{
+  background-position: 0px -15px;
+  border-top-width: 3px; 
+}
+
+
+/* DATA URLS DON'T WORK USE IMAGES */
+
+body{
+  background-image: url('/_site/img/top.jpg');
+}
+
+/* Logo */
+h1{
+  background-image: url('/_site/img/logo.gif');
+}
+
+/* Rollover & Selected Bar */
+
+#wrapper ul#projects li h2 a{
+  background-image: url('/_site/img/bar.png');
+}
+
+/* Image Loading Animation */
+
+#wrapper ul#projects li p img{
+  background-image: url('/_site/img/loading.gif');
+}
+
+/* Horizontal Bar */
+#wrapper ul#projects li,
+#wrapper ul#projects li.more dl#about,
+#wrapper ul#projects li p{
+  background-image: url('/_site/img/hr.gif');
+}
+
+/* vCard */
+#wrapper ul#projects li.more dl#contact dt strong a{
+  background-image: url('/_site/img/vcard.gif');
+}
+
+/* Glue Logo */
+#wrapper ul#projects li.more dl#about ul li#glue a{
+  background-image: url('/_site/img/glue.gif');
+}
+
+/* MerchSquad Logo */
+#wrapper ul#projects li.more dl#about ul li#merchsquad a{
+  background-image: url('/_site/img/merchsquad.gif');
+}
+
+/* Twitter Logo */
+#wrapper ul#projects li.more dl#about ul li#twitter a{
+  background-image: url('/_site/img/twitter.gif');
+}

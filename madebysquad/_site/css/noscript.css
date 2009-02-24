@@ -1,0 +1,26 @@
+/* Force Display of Project Images */
+#wrapper ul#projects li p{
+  display: block;
+}
+/* Show Bar */
+#wrapper ul#projects li h2 a{
+  background-position: center top;
+  background-repeat: repeat-x;
+  cursor: default;
+}
+/* Force All elements in link to show only Arrow */
+#wrapper ul#projects li h2 a *{
+  cursor: default !important;
+}
+/* Hide Down Arrow */
+#wrapper ul#projects li h2 a b{
+  display: none;
+}
+/* Force Color to Override Rollover */
+#wrapper ul#projects li h2 a:hover strong{
+  color: #ff9900 !important;
+}
+#wrapper ul#projects li h2 a small em{
+  /* unHide Text */
+  color: #fff;
+}
